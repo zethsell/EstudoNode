@@ -11,5 +11,3 @@ inquirer.prompt([
   console.log(chalk.bgYellow.black(response))
 })
 .catch((err) => {console.log(err)});
-
-//console.log(chalk.bgRed.black('Reprovado'))
