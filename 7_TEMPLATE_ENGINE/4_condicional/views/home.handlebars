@@ -1,0 +1,14 @@
+<h1>Ola handles</h1>
+{{#if approved}}
+  <p>Parabens seu cadsatro foi aprovado</p>
+{{else}}
+  <p>Aguardando aprovação</p>
+{{#/if}}
+
+<p>O Nome do usuário é {{user.name}} {{user.surname}}</p>
+
+{{#if auth}}
+  <p>
+    Voce está autenticado, <a href="/dashboard"> Clique aqui</a> para acessar o Dashboard
+  </p>
+{{/if}}
